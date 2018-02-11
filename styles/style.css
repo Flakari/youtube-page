@@ -19,7 +19,7 @@ header {
 #container {
     margin-left: 152px;
     margin-top: 80px;
-    width: 1280px;
+    width: 1274px;
 }
 
 #container section {
@@ -87,12 +87,12 @@ header {
 
 #vid-desc button {
     margin-top: 24px;
-    padding: 12px 22px;
+    padding: 11px 20px;
     font-size: 0.95em;
     font-family: 'Roboto';
     font-weight: 500;
     border-radius: 2px;
-    background-color: red;
+    background-color: #ff0000;
     border: none;
     color: white;
     float: right;
@@ -163,10 +163,47 @@ header {
 }
 
 aside {
-    background-color: lightgray;
     float: right;
     height: 2000px;
     width: 397px;
+}
+
+aside article {
+    height: 94px;
+    margin-bottom: 10px;
+}
+
+.sidebar-vid img {
+    width: 168px;
+    display: inline-block;
+}
+
+.sidebar-vid div {
+    display: inline-block;
+    width: 200px;
+    height: 94px;
+    position: relative;
+    bottom: 22px;
+    margin-left: 4px;
+}
+
+.sidebar-vid h5 {
+    margin-top: 0px;
+    font-size: 0.9em;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+    margin-bottom: 7px;
+}
+
+.sidebar-vid h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: grey;
+    letter-spacing: 0.18px;
 }
 
 @media screen and (max-width: 999px) {
