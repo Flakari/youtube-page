@@ -109,11 +109,10 @@ header button:hover {
 #container {
     margin-left: 152px;
     margin-top: 80px;
-    width: 1275px;
+    width: 1278px;
 }
 
 #container section {
-    margin-bottom: 14px;
     width: 854px;
 }
 
@@ -246,7 +245,6 @@ header button:hover {
 
 #comment-block {
     height: 1000px;
-    background-color: rgb(218, 218, 218);
 }
 
 aside {
@@ -360,6 +358,135 @@ aside a {
     position: relative;
     top: 10px;
     color: #a3a3a3;
+}
+
+#comment-block h4 {
+    display: inline-block;
+    margin-top: 0;
+    font-weight: 400;
+    position: relative;
+    bottom: 8px;
+    margin-right: 25px;
+}
+
+#comment-block img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+#comment-block button {
+    border: none;
+    background-color: white;
+    font-size: 0.85em;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+#comment-block button span {
+    position: relative;
+    bottom: 8px;
+    margin-left: 5px;
+    opacity: 0.6;
+}
+
+#comment-sort {
+    margin-left: 5px;
+    height: 25px;
+    width: 25px;
+    opacity: 0.6;
+}
+
+#user-comment {
+    position: relative;
+    bottom: 36px;
+    right: 22px;
+}
+
+#user-comment input {
+    font-size: 0.85em;
+    padding-left: 0;
+    border-bottom: 1px #dadada solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    box-shadow: none;
+    width: 790px;
+}
+
+.comment-btn {
+    height: 16px;
+    width: 16px;
+}
+
+.img-container {
+    height: 100%;
+}
+
+.comment-content {
+    margin-left: 60px;
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+}
+
+#comment-block article {
+    margin-bottom: -15px;
+}
+
+#comment-block article h4 {
+    font-size: 0.85em;
+    font-weight: 500;
+    bottom: 2px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.comment-date {
+    font-size: 0.8em;
+    position: relative;
+    bottom: 2px;
+    color: #808080;
+}
+
+#comment-block article p {
+    margin-top: 0;
+    font-size: 0.898em;
+}
+
+#comment-block article button {
+    margin-top: 0;
+    opacity: 0.7;
+    padding-right: 20px;
+    padding-left: 0;
+    padding-top: 0;
+    font-size: 0.8em;
+}
+
+#comment-block article button:hover {
+    opacity: 0.9;
+}
+
+.like-count {
+    font-size: 0.84em;
+    padding-right: 20px;
+    color: #585858;
+}
+
+.comment-btn {
+    position: relative;
+    opacity: 0.35;
+    top: 2px;
+    margin-right: 12px;
+    margin-left: 0;
+}
+
+.comment-btn:hover {
+    opacity: 0.7;
+}
+
+strong {
+    font-weight: 500;
 }
 
 @media screen and (max-width: 999px) {
